@@ -30,12 +30,13 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
   <BrowserRouter>
-    <Routes>
+   {/*  <Routes>
       <switch>
         <Route path="/" exact render={props =><Index {...props}/>} />
         <redirect to="/" />
       </switch>
   
-    </Routes>
+    </Routes> */}
+    <Index />
   </BrowserRouter>
 );
