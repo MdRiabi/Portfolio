@@ -17,6 +17,8 @@
 */
 import React from "react";
 import NavBar from '../components/Navbars/DemoNavbar';
+import Hero from "components/Hero/Hero";
+import Footer from "components/Footers/SimpleFooter";
 
 
 
@@ -27,7 +29,14 @@ class Index extends React.Component {
     this.refs.main.scrollTop = 0;
   } */
   render() {
-    return <NavBar />;
+    return (
+      <>
+      <NavBar />
+      <Hero />
+      <Footer />
+      </>
+    
+  );
   }
 }
 
