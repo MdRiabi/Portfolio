@@ -19,6 +19,7 @@ import React from "react";
 import NavBar from '../components/Navbars/DemoNavbar';
 import Hero from "components/Hero/Hero";
 import Footer from "components/Footers/SimpleFooter";
+import TreeCards from "components/TreeCards/TreeCards";
 
 
 
@@ -33,6 +34,7 @@ class Index extends React.Component {
       <>
       <NavBar />
       <Hero />
+      <TreeCards />
       <Footer />
       </>
     
