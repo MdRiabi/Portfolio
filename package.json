@@ -55,7 +55,6 @@
     "react": ">=16.0.0",
     "react-datetime": "3.2.0",
     "react-dom": ">=16.0.0",
-    "react-router-dom": "6.11.1",
     "react-scripts": "^5.0.1",
     "reactstrap": "8.10.0",
     "sass": "1.62.1"
@@ -69,6 +68,7 @@
     "@types/react": "18.2.6",
     "eslint-plugin-flowtype": "8.0.3",
     "jquery": "3.7.0",
+    "react-router-dom": "^6.22.3",
     "typescript": "3.9.10"
   },
   "overrides": {

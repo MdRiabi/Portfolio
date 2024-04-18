@@ -9,7 +9,7 @@ function SimpleCard({title, description, color,icon, link, badges}) {
             {badge}
           </Badge>
         });
-    };
+    }
     return (
         <Card className="card-lift--hover shadow border-0">
                     <CardBody className="py-5">
